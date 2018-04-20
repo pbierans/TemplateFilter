@@ -1,0 +1,21 @@
+{
+  "name": "pbierans/template-filter",
+  "description": "Just some methods for the template engine. You will have to use setMagicCallContainer() with a SolidContainer() for injecting them as callables. See Template\\DefaultTemplateTest for an example.",
+  "license": "private, do not use me in production context at all",
+  "authors": [
+    {
+      "name": "Patrick Bierans",
+      "email": "pbierans@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PatrickBierans\\TemplateFilter\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1"
+  }
+}
